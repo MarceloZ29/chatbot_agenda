@@ -1,0 +1,12 @@
+# Entorno virtual
+venv/
+
+# Archivos de VS Code
+.vscode/
+
+# Archivos Python temporales
+__pycache__/
+*.pyc
+
+# Otros
+*.log
