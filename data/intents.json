@@ -1,0 +1,141 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "Hola",
+        "Hey",
+        "Buenos días",
+        "Buenas tardes",
+        "Buenas noches",
+        "Qué tal",
+        "Cómo estás",
+        "Holaa",
+        "Qué onda",
+        "Saludos"
+      ],
+      "responses": [
+        "Hola, ¿en qué te puedo ayudar?",
+        "¡Hola! ¿Qué necesitas?",
+        "Saludos, ¿cómo puedo asistirte hoy?"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "Adiós",
+        "Nos vemos",
+        "Chau",
+        "Hasta luego",
+        "Me tengo que ir",
+        "Bye",
+        "Hasta pronto",
+        "Gracias, eso es todo"
+      ],
+      "responses": [
+        "¡Hasta luego!",
+        "Cuídate, nos vemos.",
+        "Que tengas un buen día."
+      ]
+    },
+    {
+      "tag": "agregar_evento",
+      "patterns": [
+        "Agrega una reunión mañana a las 3",
+        "Programa una cita con el doctor el lunes",
+        "Pon una reunión con María el viernes a las 10",
+        "Agendar evento el martes a las 8",
+        "Tengo que ir al gimnasio a las 6 am",
+        "Añade cena con amigos el sábado",
+        "Agrega clase de yoga a las 7 de la mañana",
+        "Agenda un viaje para el fin de semana",
+        "Registra una llamada con el jefe a las 9",
+        "Apunta reunión de equipo el miércoles a las 11",
+        "Cita con el dentista el jueves a las 2 pm",
+        "Agrega una reunión importante el 15 de mayo",
+        "Reservar cita con abogado el 10 de abril a las 16:00",
+        "Agendar entrenamiento con Pedro el domingo"
+      ],
+      "responses": [
+        "Evento agregado a tu agenda.",
+        "Listo, el evento fue registrado.",
+        "Tu cita ha sido añadida exitosamente."
+      ]
+    },
+    {
+      "tag": "consultar_evento",
+      "patterns": [
+        "¿Qué tengo el lunes?",
+        "Muéstrame mis eventos",
+        "¿Tengo reuniones hoy?",
+        "Ver la agenda de mañana",
+        "Qué hay para el jueves",
+        "¿Cuáles son mis próximos eventos?",
+        "Dime mis actividades del viernes",
+        "Revisar mi agenda del sábado",
+        "¿Estoy ocupado esta semana?",
+        "Consultar mis tareas del miércoles",
+        "Qué hay programado para esta tarde"
+      ],
+      "responses": [
+        "Aquí están tus eventos.",
+        "Esto es lo que tienes en tu agenda.",
+        "Estos son tus próximos compromisos."
+      ]
+    },
+    {
+      "tag": "eliminar_evento",
+      "patterns": [
+        "Borra la cita del miércoles",
+        "Elimina el evento con el dentista",
+        "Quita la reunión de las 4",
+        "Cancela la reunión del viernes",
+        "Eliminar clase de yoga",
+        "Borrar llamada programada",
+        "Quitar evento con María",
+        "Anula la cita del lunes",
+        "Suprime la reunión semanal",
+        "Cancelar evento agendado"
+      ],
+      "responses": [
+        "Evento eliminado.",
+        "Se ha borrado el evento.",
+        "Listo, lo quité de tu agenda."
+      ]
+    },
+    {
+      "tag": "ayuda",
+      "patterns": [
+        "¿Qué puedes hacer?",
+        "Ayuda",
+        "Necesito asistencia",
+        "¿Cómo te uso?",
+        "¿Qué funciones tienes?",
+        "Explícame cómo agendar algo",
+        "Muéstrame tus comandos",
+        "No sé cómo empezar"
+      ],
+      "responses": [
+        "Puedo ayudarte a agendar, consultar o eliminar eventos. ¿Qué necesitas?",
+        "Estoy aquí para ayudarte con tu agenda. Solo dime qué quieres hacer.",
+        "Puedes pedirme que agende, muestre o elimine un evento."
+      ]
+    },
+    {
+      "tag": "agradecimiento",
+      "patterns": [
+        "Gracias",
+        "Muchas gracias",
+        "Te lo agradezco",
+        "Gracias por tu ayuda",
+        "Muy amable",
+        "Mil gracias"
+      ],
+      "responses": [
+        "¡De nada!",
+        "Con gusto.",
+        "Para eso estoy."
+      ]
+    }
+  ]
+}
