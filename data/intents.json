@@ -12,7 +12,14 @@
         "Cómo estás",
         "Holaa",
         "Qué onda",
-        "Saludos"
+        "Saludos",
+        "Buen día",
+        "Qué pasa",
+        "Cómo va todo",
+        "Hola, ¿cómo te va?",
+        "Un saludo",
+        "Qué hay de nuevo",
+        "Hola, ¿qué tal?"
       ],
       "responses": [
         "Hola, ¿en qué te puedo ayudar?",
@@ -30,7 +37,14 @@
         "Me tengo que ir",
         "Bye",
         "Hasta pronto",
-        "Gracias, eso es todo"
+        "Gracias, eso es todo",
+        "Hasta la próxima",
+        "Que te vaya bien",
+        "Nos vemos luego",
+        "Debo retirarme",
+        "Con permiso",
+        "Fue un placer",
+        "Finalizar"
       ],
       "responses": [
         "¡Hasta luego!",
@@ -70,17 +84,23 @@
         "agendar evento de negocios para mañana a las 9",
         "crea recordatorio para el 30 de junio a las 2 de la tarde",
         "apunta mi terapia el último día del mes a las 5pm",
-        "registra una llamada con el equipo el 10/07 a las 11:30"
+        "registra una llamada con el equipo el 10/07 a las 11:30",
+        "Añade 'Revisión de proyecto con el equipo de diseño' para el próximo lunes a las 3pm",
+        "Agendar 'Almuerzo con cliente importante Sr. Pérez' mañana al mediodía",
+        "Pon 'Entrega de informe final' en mi calendario para el 15 de junio",
+        "Necesito registrar 'Clase de cocina tailandesa avanzada' en dos horas",
+        "Recuérdame 'Comprar entradas para el concierto de rock' a las 5 de la tarde",
+        "Programa 'Videoconferencia con la sede europea' para el martes que viene a las 9:00 AM",
+        "Anota 'Celebración de aniversario con mi pareja' para el sábado por la noche",
+        "Quiero agregar 'Tiempo de estudio para el examen de certificación PMP' todos los días de 7 a 9 pm"
       ],
       "responses": [
-        "Evento agendado: {descripcion} para el {fecha}",
-        "Listo, he programado {descripcion} el {fecha}",
-        "Confirmado: {descripcion} para {fecha}",
-        "Evento agregado a tu agenda.",
-        "Listo, el evento fue registrado.",
-        "Tu cita ha sido añadida exitosamente.",
-        "Evento agendado: {descripcion} para el {fecha}",
-        "Listo, he programado {descripcion} el {fecha}"
+        "Evento agendado: {description} para el {date} a las {time}",
+        "Listo, he programado '{description}' el {date} a las {time}",
+        "Confirmado: '{description}' para el {date} a las {time}",
+        "Evento '{description}' agregado a tu agenda para el {date} a las {time}.",
+        "Listo, el evento '{description}' fue registrado para el {date} a las {time}.",
+        "Tu cita '{description}' ha sido añadida exitosamente para el {date} a las {time}."
       ]
     },
     {
@@ -96,15 +116,20 @@
         "Revisar mi agenda del sábado",
         "¿Estoy ocupado esta semana?",
         "Consultar mis tareas del miércoles",
-        "Qué hay programado para esta tarde"
+        "Qué hay programado para esta tarde",
+        "¿Qué eventos tengo la próxima semana?",
+        "Muéstrame mi calendario para el 10 de este mes",
+        "¿Hay algo agendado para hoy después de las 5pm?",
+        "Lista mis compromisos del próximo mes",
+        "¿Tengo algún recordatorio para mañana por la mañana?",
+        "Revisa si tengo algo el primer lunes de julio"
       ],
       "responses": [
-        "Aquí están tus eventos.",
-        "Esto es lo que tienes en tu agenda.",
-        "Estos son tus próximos compromisos.",
-        "Evento agendado: {descripcion} para el {fecha}",
-        "Listo, he programado {descripcion} el {fecha}",
-        "Confirmado: {descripcion} para {fecha}"
+        "Aquí están tus eventos: {events_list}",
+        "Esto es lo que tienes en tu agenda: {events_list}",
+        "Estos son tus próximos compromisos: {events_list}",
+        "Para el {date}, tienes agendado: {events_list}",
+        "Encontré estos eventos: {events_list}"
       ]
     },
     {
@@ -119,12 +144,21 @@
         "Quitar evento con María",
         "Anula la cita del lunes",
         "Suprime la reunión semanal",
-        "Cancelar evento agendado"
+        "Cancelar evento agendado",
+        "Elimina mi evento de mañana a las 10am",
+        "Borra 'Cena con amigos' del sábado",
+        "Quiero cancelar la 'Revisión de proyecto' del lunes",
+        "Necesito eliminar el recordatorio de 'Comprar entradas'",
+        "Anula la 'Videoconferencia con la sede europea'",
+        "Suprime el evento 'Clase de cocina tailandesa avanzada'",
+        "Por favor, cancela mi 'Tiempo de estudio' de hoy"
       ],
       "responses": [
-        "Evento eliminado.",
-        "Se ha borrado el evento.",
-        "Listo, lo quité de tu agenda."
+        "Evento '{description}' eliminado.",
+        "Se ha borrado el evento '{description}'.",
+        "Listo, '{description}' lo quité de tu agenda.",
+        "El evento '{description}' ha sido cancelado exitosamente.",
+        "Confirmado, el evento '{description}' fue eliminado de tu calendario."
       ]
     },
     {
@@ -137,12 +171,18 @@
         "¿Qué funciones tienes?",
         "Explícame cómo agendar algo",
         "Muéstrame tus comandos",
-        "No sé cómo empezar"
+        "No sé cómo empezar",
+        "¿Cuáles son tus capacidades?",
+        "¿Me puedes orientar?",
+        "¿Qué tipo de peticiones entiendes?",
+        "¿Cómo puedo ver mis eventos?",
+        "¿Es posible borrar una cita?",
+        "Guíame para añadir una tarea"
       ],
       "responses": [
         "Puedo ayudarte a agendar, consultar o eliminar eventos. ¿Qué necesitas?",
-        "Estoy aquí para ayudarte con tu agenda. Solo dime qué quieres hacer.",
-        "Puedes pedirme que agende, muestre o elimine un evento."
+        "Estoy aquí para ayudarte con tu agenda. Solo dime qué quieres hacer. Por ejemplo, puedes decir 'Agrega una reunión mañana a las 3pm' o '¿Qué tengo para hoy?'.",
+        "Puedes pedirme que agende, muestre o elimine un evento. También puedes preguntarme qué tienes programado para una fecha específica."
       ]
     },
     {
@@ -153,12 +193,20 @@
         "Te lo agradezco",
         "Gracias por tu ayuda",
         "Muy amable",
-        "Mil gracias"
+        "Mil gracias",
+        "Excelente servicio",
+        "Aprecio tu esfuerzo",
+        "Justo lo que necesitaba, gracias",
+        "Eres muy útil",
+        "Qué bien, gracias",
+        "Ok, gracias"
       ],
       "responses": [
         "¡De nada!",
         "Con gusto.",
-        "Para eso estoy."
+        "Para eso estoy.",
+        "Me alegra haberte ayudado.",
+        "Un placer asistirte."
       ]
     }
   ]

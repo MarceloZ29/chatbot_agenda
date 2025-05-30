@@ -43,7 +43,11 @@ def load_and_preprocess_data():
             xy.append((tokens, tag))
     
     # Stemming y filtrado
-    palabras = [stem(w) for w in palabras if w not in ["?", "!", ".", ","]]
+    # clean_text ya se encarga de la mayoría de la puntuación.
+    # Si tokenize produce tokens de puntuación aislados, stem podría fallar o devolverlos.
+    # Es mejor asegurarse que tokenize no genere dichos tokens si clean_text es efectivo.
+    # Por ahora, asumimos que clean_text y tokenize manejan esto bien.
+    palabras = [stem(w) for w in palabras] # clean_text debería haber manejado la puntuación
     palabras = sorted(list(set(palabras)))
     tags = sorted(list(set(tags)))
     
@@ -52,15 +56,15 @@ def load_and_preprocess_data():
 def create_model(input_shape, output_shape):
     """Crea un modelo mejorado de red neuronal"""
     model = Sequential([
-        Dense(256, input_shape=input_shape, activation='relu'),
+        Dense(256, input_shape=input_shape, activation='relu'), # Attempt 3: Original neurons
         BatchNormalization(),
-        Dropout(0.6),
-        Dense(128, activation='relu'),
+        Dropout(0.55), # Attempt 3: Changed from original 0.6
+        Dense(128, activation='relu'), # Attempt 3: Original neurons
         BatchNormalization(),
-        Dropout(0.5),
-        Dense(64, activation='relu'),
+        Dropout(0.45), # Attempt 3: Changed from original 0.5
+        Dense(64, activation='relu'),  # Attempt 3: Original neurons
         BatchNormalization(),
-        Dropout(0.4),
+        Dropout(0.35), # Attempt 3: Changed from original 0.4
         Dense(output_shape, activation='softmax')
     ])
     
