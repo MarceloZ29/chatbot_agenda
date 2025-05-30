@@ -54,12 +54,33 @@
         "Cita con el dentista el jueves a las 2 pm",
         "Agrega una reunión importante el 15 de mayo",
         "Reservar cita con abogado el 10 de abril a las 16:00",
-        "Agendar entrenamiento con Pedro el domingo"
+        "Agendar entrenamiento con Pedro el domingo",
+        "crea una cita para el dentista el 31 de mayo a las 3 de la tarde",
+        "programa consulta médica para el 15 de junio a las 10 am",
+        "agenda reunión con el equipo el próximo viernes a las 4pm",
+        "necesito una cita con el abogado el lunes 12 a las 11:30",
+        "reserva hora para el veterinario el día 20 a las 5:30 pm",
+        "quiero agendar una cita de spa para el jueves a las 2 de la tarde",
+        "registra una llamada con el cliente el 5 de julio a las 9:00",
+        "apunta mi terapia para el último viernes del mes a las 6pm",
+        "agenda cita en el spa el 25 de mayo a las 3pm",
+        "programa una reunión el día 15 a las 10am",
+        "reserva hora para el dentista el próximo lunes",
+        "necesito una cita con el doctor el viernes 20 a las 4pm",
+        "agendar evento de negocios para mañana a las 9",
+        "crea recordatorio para el 30 de junio a las 2 de la tarde",
+        "apunta mi terapia el último día del mes a las 5pm",
+        "registra una llamada con el equipo el 10/07 a las 11:30"
       ],
       "responses": [
+        "Evento agendado: {descripcion} para el {fecha}",
+        "Listo, he programado {descripcion} el {fecha}",
+        "Confirmado: {descripcion} para {fecha}",
         "Evento agregado a tu agenda.",
         "Listo, el evento fue registrado.",
-        "Tu cita ha sido añadida exitosamente."
+        "Tu cita ha sido añadida exitosamente.",
+        "Evento agendado: {descripcion} para el {fecha}",
+        "Listo, he programado {descripcion} el {fecha}"
       ]
     },
     {
@@ -80,7 +101,10 @@
       "responses": [
         "Aquí están tus eventos.",
         "Esto es lo que tienes en tu agenda.",
-        "Estos son tus próximos compromisos."
+        "Estos son tus próximos compromisos.",
+        "Evento agendado: {descripcion} para el {fecha}",
+        "Listo, he programado {descripcion} el {fecha}",
+        "Confirmado: {descripcion} para {fecha}"
       ]
     },
     {
